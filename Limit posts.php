@@ -1,6 +1,6 @@
 <?php
 
-//Hide the Publish Actions on 'post-new.php?post_type=property', pages, but not on edit pages
+//Hide the Publish Actions on the 'post-new.php?post_type=property', page, but not on edit pages
 
 add_action('admin_head' , 'limit_posts');
 function limit_posts(){
